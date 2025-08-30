@@ -1,0 +1,55 @@
+# ChipTop – Physical Design Project
+
+This project implements the **ChipTop module** through a  **ASIC Physical Design (PD) flow**.  
+It is focused on learning and practicing industry-standard backend steps like floorplanning, placement, clock tree synthesis, routing.
+
+## 🚀 Objectives
+- Understand FLOORPLAN TO ROUTING flow for ASIC design
+- Perform floorplanning, placement, CTS, routing, and optimization
+- Build basic knowledge about PD flow.
+
+## 📂 Project Structure
+chiptop-pd/
+├── netlist/ # Synthesized netlist files
+├── sdc/ # Timing constraints
+├── lef/ # Tech LEF / Cell LEF
+├── def/ # DEF files for different stages
+├── reports/ # Timing, power, area reports
+├── scripts/ # Tcl scripts for EDA tools
+└── README.md # Project information
+
+## 🛠️ Tools & Requirements
+- 32nm Technology
+- **EDA Tools**:
+  - Synopsys ICC2
+
+- **Languages/Scripts**:
+  - Tcl (for tool automation)
+
+## 📖 Flow Steps
+1. Import netlist, constraints, and library files
+2. Floorplanning (define core area, IOs, power planning)
+3. Placement (standard cell placement, optimization)
+4. CTS (Clock Tree Synthesis)
+5. Routing (global + detailed routing)
+
+## 🧪 Results
+- Timing closure achieved at target frequency (250 MHz)  
+- Final utilization: 0.7307 
+- Total power: 1.34e+10 pW  
+
+## 📜 License
+This project is licensed under the [MIT License](LICENSE).
+
+You are free to:
+- Use this project for personal, academic, or commercial purposes
+- Modify and redistribute it with proper attribution
+
+Limitations:
+- No warranty is provided
+- The author is not liable for any damages
+
+
+
+
+
